@@ -1,0 +1,45 @@
+body{
+	display:none ;
+	overflow: hidden;
+}
+#jpreOverlay {
+	background: #fff;
+}
+#jpreSlide{
+	position: fixed;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	height: 32%;
+	bottom: 50%;
+}
+#jpreSlideCell {position: relative; bottom: 0; max-width: 521px; margin: 0 auto;}
+#jpreSlideCell img {margin-bottom: 20px; width: 90%; display: inline-block;}
+#jpreSlideCell #desc {max-width: 512px; margin: 0 auto; font:25px/34px 'PFBP_thin'; color: #444;}
+#jpreSlideCell #desc div {display: none;}
+
+#jpreLoader {  height: 100%; margin-top: -18px; width: 100%; position:absolute;  top: 0 !important; }
+
+#jpreBar {
+	width: 100% !important;
+	height: 100% !important;
+}
+#jpreBar div { display: none;}
+
+#jprePercentage {
+	position: relative;
+	height: auto !important;  
+	font:55px/44px 'PFBP_thin'; color: #efefef;
+	text-align:center;
+	top:20px;
+	width: 100%;
+}
+
+
+@media only screen   and  (max-width: 640px) { 
+#jpreSlide {    display: table;    height: 100%;    position: fixed;       width: 100%; bottom: auto;}
+#jpreSlideCell {    display: table-cell;    max-width: none;    vertical-align: middle;  }
+#jpreSlideCell #desc { width: 70%; max-width: none;}
+#jpreSlideCell img {width: 70%; font-size: 18px; line-height: 24px;}
+
+}

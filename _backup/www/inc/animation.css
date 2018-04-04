@@ -1,0 +1,129 @@
+
+
+.object_left   { -webkit-transform: translate(-600px, -300px) rotate(0) scale(1.05); visibility: hidden;}
+.object_right {-webkit-transform: translate(+600px, -300px) rotate(0) scale(1.05); visibility: hidden;}
+
+.subcat { -webkit-transform: translate3d(0,2000px,0); visibility: hidden;}
+
+
+.roundAnimation{
+    -webkit-animation: vertical-play 1s ;
+       -moz-animation: vertical-play 1s ;
+        -ms-animation: vertical-play 1s ;
+         -o-animation: vertical-play 1s ;
+            animation: vertical-play 1s ;
+            visibility: visible;
+            -webkit-transform: translate(0, 0) scale(1);
+            -moz-transform: translate(0, 0) scale(1);
+            transform: translate(0, 0) scale(1);
+            
+
+}
+
+@-webkit-keyframes vertical-play {
+   from { -webkit-transform: translate(-300px, -300px) rotate(0) scale(1.05); }
+     to { -webkit-transform: translate(0, 0) scale(1); }
+}
+
+@-moz-keyframes vertical-play {
+   from { -moz-transform: translate(-300px, -300px) rotate(0) scale(1.05);  }
+     to { -moz-transform: translate(0, 0) scale(1) ;}
+}
+
+@-ms-keyframes vertical-play {
+   from { -ms-transform: translate(-300px, -300px) rotate(0) scale(1.05);  }
+     to { -ms-transform: translate(0, 0) scale(1);}
+}
+
+@-o-keyframes vertical-play {
+   from { -o-transform: translate(-300px, -300px) rotate(0) scale(1.05);  }
+     to { -o-transform: translate(0, 0) scale(1);}
+}
+
+@keyframes vertical-play {
+   from { transform: translate(-300px, -300px) rotate(0) scale(1.05); }
+     to { transform: translate(0, 0) scale(1);}
+}
+
+.object_right.roundAnimation {
+    -webkit-animation: vertical-play2 1s ;
+       -moz-animation: vertical-play2 1s ;
+        -ms-animation: vertical-play2 1s ;
+         -o-animation: vertical-play2 1s ;
+            animation: vertical-play2 1s ;
+
+}
+
+@-webkit-keyframes vertical-play2 {
+   from { -webkit-transform: translate(+300px, -300px) rotate(0) scale(1.05);  }
+     to { -webkit-transform: translate(0, 0) scale(1);}
+}
+
+@-moz-keyframes vertical-play2 {
+   from { -moz-transform: translate(+300px, -300px) rotate(0) scale(1.05);  }
+     to { -moz-transform: translate(0, 0) scale(1) ;}
+}
+
+@-ms-keyframes vertical-play2 {
+   from { -ms-transform: translate(+300px, -300px) rotate(0) scale(1.05);  }
+     to { -ms-transform: translate(0, 0) scale(1);}
+}
+
+@-o-keyframes vertical-play2 {
+   from { -o-transform: translate(+300px, -300px) rotate(0) scale(1.05);  }
+     to { -o-transform: translate(0, 0) scale(1);}
+}
+
+@keyframes vertical-play2 {
+   from { transform: translate(+300px, -300px) rotate(0) scale(1.05); }
+     to { transform: translate(0, 0) scale(1);}
+}
+
+
+
+
+
+
+
+.subcat.roundAnimation{
+    -webkit-animation: bounceInUp 1s ;
+       -moz-animation: bounceInUp 1s ;
+        -ms-animation: bounceInUp 1s ;
+         -o-animation: bounceInUp 1s ;
+            animation: bounceInUp 1s ;
+             -webkit-transform: translate(0, 0);
+
+
+                
+}
+
+
+@-webkit-keyframes bounceInUp {
+   from {      -webkit-transform: translate(0,2000px) scale(1); }
+     to {     -webkit-transform: translate(0,0) scale(1);       }
+}
+
+@-ms-keyframes bounceInUp {
+   from {      -ms-transform: translate(0,2000px);}
+     to {     -ms-transform: translate(0,0);       }
+}
+
+
+@-o-keyframes bounceInUp {
+   from {      -o-transform: translate(0,2000px);}
+     to {     -o-transform: translate(0,0);        }
+}
+
+@-moz-keyframes bounceInUp {
+   from {      -moz-transform: translate(0,2000px);}
+     to {     -moz-transform: translate(0,0);      }
+}
+
+@keyframes bounceInUp {
+   from {      transform: translate(0,2000px);}
+     to {     transform: translate(0,0);       }
+}
+
+
+
+
