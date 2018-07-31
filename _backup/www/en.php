@@ -544,10 +544,10 @@ function getRandomNumber($f, $t, $n)
                         <img src="img/brand_thumb_1.jpg" alt="">
                         <img src="img/brand_thumb_hover_1.jpg" alt="">
                     </div>
-                    <div class="subcat" onclick="renderInnerPage(this, 'cat',9);">
-                        <img src="img/brand_thumb_4.jpg" alt="">
-                        <img src="img/brand_thumb_hover_4.jpg" alt="">
-                    </div>
+<!--                    <div class="subcat" onclick="renderInnerPage(this, 'cat',9);">-->
+<!--                        <img src="img/brand_thumb_4.jpg" alt="">-->
+<!--                        <img src="img/brand_thumb_hover_4.jpg" alt="">-->
+<!--                    </div>-->
                     <div class="subcat" onclick="renderInnerPage(this, 'cat',8);">
                         <img src="img/new_img/smacom_fir_en.png" alt="">
                         <img src="img/new_img/smacom_fir_en_hover.png" alt="">

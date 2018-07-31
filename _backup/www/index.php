@@ -173,12 +173,12 @@ function getRandomNumber($f, $t, $n)
                         <span class="title">SmaCom</span>
                     </a>
                 </li>
-                <li>
-                    <a href="#" id="cat_link_9" onclick="renderInnerPage(this, 'cat',9);">
-                        <img alt="" src="img/subnab_brand4.png">
-                        <span class="title">Doy-pack</span>
-                    </a>
-                </li>
+<!--                <li>-->
+<!--                    <a href="#" id="cat_link_9" onclick="renderInnerPage(this, 'cat',9);">-->
+<!--                        <img alt="" src="img/subnab_brand4.png">-->
+<!--                        <span class="title">Doy-pack</span>-->
+<!--                    </a>-->
+<!--                </li>-->
                 <li>
                     <a href="#" id="cat_link_8" onclick="renderInnerPage(this, 'cat',8);">
                         <img alt="" src="img/subnab_brand3.png">
@@ -309,9 +309,9 @@ function getRandomNumber($f, $t, $n)
                     </a>
                 </li>
                 <li>
-                    <a href="#" id="cat_link_27" onclick="renderInnerPage(this, 'cat', 27);">
-                        <img alt="" src="img/subnab_cat4.png">
-                        <span class="title">Блинчики</span>
+                    <a href="#" id="" onclick="return false;">
+                        <img alt="" src="img/subnab_cat20.png">
+                        <span class="title">Бульмени</span>
                     </a>
                 </li>
                 <li>
@@ -381,6 +381,12 @@ function getRandomNumber($f, $t, $n)
                     <a href="#" id="cat_link_36" onclick="renderInnerPage(this, 'cat', 36);">
                         <img alt="" src="img/subnab_cat6.png">
                         <span class="title">Пирожки</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="cat_link_38" onclick="renderInnerPage(this, 'cat', 38);">
+                        <img alt="" src="img/subnab_cat4.png">
+                        <span class="title">Блинчики</span>
                     </a>
                 </li>
             </ul>
@@ -540,9 +546,9 @@ function getRandomNumber($f, $t, $n)
                         </div>
                     </div>
                     <div class="subcat">
-                        <img src="img/product_thumb_3.png" alt="">
-                        <div onclick="renderInnerPage(this, 'cat', 27);" class="hoverBox">
-                            <a href="" class="more" onClick="return false;">блинчики</a>
+                        <img src="img/product_thumb_20.png" alt="">
+                        <div onclick="return false;" class="hoverBox">
+                            <a href="" class="more" onClick="return false;">бульмени</a>
                         </div>
                     </div>
                     <div class="subcat subcat-more">
@@ -578,6 +584,9 @@ function getRandomNumber($f, $t, $n)
                         <div onclick="renderInnerPage(this, 'cat', 36);" class="more__pop more__pop-7">
                             <a href="" class="more__pop-btn" onclick="return false;">пирожки</a>
                         </div>
+                        <div onclick="renderInnerPage(this, 'cat', 38);" class="more__pop more__pop-8">
+                            <a href="" class="more__pop-btn" onclick="return false;">блинчики</a>
+                        </div>
                     </div>
                     <div class="subcat">
                         <img src="../../img/product_thumb_dough.png" alt="">
@@ -593,10 +602,10 @@ function getRandomNumber($f, $t, $n)
                         <img src="img/brand_thumb_1.jpg" alt="">
                         <img src="img/brand_thumb_hover_1.jpg" alt="">
                     </div>
-                    <div class="subcat" onclick="renderInnerPage(this, 'cat',9);">
-                        <img src="img/brand_thumb_4.jpg" alt="">
-                        <img src="img/brand_thumb_hover_4.jpg" alt="">
-                    </div>
+<!--                    <div class="subcat" onclick="renderInnerPage(this, 'cat',9);">-->
+<!--                        <img src="img/brand_thumb_4.jpg" alt="">-->
+<!--                        <img src="img/brand_thumb_hover_4.jpg" alt="">-->
+<!--                    </div>-->
                     <div class="subcat" onclick="renderInnerPage(this, 'cat',8);">
                         <img src="img/new_img/smacom_fir_rus.png" alt="">
                         <img src="img/new_img/smacom_fir_rus_hover.png" alt="">

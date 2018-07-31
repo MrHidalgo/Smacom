@@ -4099,6 +4099,10 @@ body.active {
     top: 400px;
     left: 165px;
 }
+.more__pop-8 {
+    top: 400px;
+    left: 335px;
+}
 @media screen and (min-width: 641px) and (max-width: 1350px) {
     .more__pop {
         width: 120px;
@@ -4129,6 +4133,9 @@ body.active {
     }
     .more__pop-7 {
         left: 115px;
+    }
+    .more__pop-8 {
+        left: 255px;
     }
 }
 @media screen and (min-width: 641px) and (max-width: 1024px) {
@@ -4170,6 +4177,10 @@ body.active {
     }
     .more__pop-7 {
         top: 300px;
+        left: 140px;
+    }
+    .more__pop-8 {
+        top: 180px;
         left: 140px;
     }
 }
@@ -4225,6 +4236,10 @@ body.active {
     }
     .more__pop-7 {
         top: 300px;
+        left: 140px;
+    }
+    .more__pop-8 {
+        top: 180px;
         left: 140px;
     }
 }
