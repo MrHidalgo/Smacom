@@ -309,7 +309,7 @@ function getRandomNumber($f, $t, $n)
                     </a>
                 </li>
                 <li>
-                    <a href="#" id="" onclick="return false;">
+                    <a href="#" id="cat_link_39" onclick="renderInnerPage(this, 'cat', 39);">
                         <img alt="" src="img/subnab_cat20.png">
                         <span class="title">Бульмени</span>
                     </a>
@@ -547,7 +547,7 @@ function getRandomNumber($f, $t, $n)
                     </div>
                     <div class="subcat">
                         <img src="img/product_thumb_20.png" alt="">
-                        <div onclick="return false;" class="hoverBox">
+                        <div onclick="renderInnerPage(this, 'cat', 39);" class="hoverBox">
                             <a href="" class="more" onClick="return false;">бульмени</a>
                         </div>
                     </div>

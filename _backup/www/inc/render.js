@@ -40,7 +40,7 @@ function renderInnerPage(element, url, id, slideBack) {
         filter = 3;
     else if (id >= 21 && id <= 23 || id === 37)
         filter = 4;
-    else if (id >= 24 && id <= 28)
+    else if (id >= 24 && id <= 28 || id === 39)
         filter = 5;
     else if (id >= 29)
         filter = 6;
