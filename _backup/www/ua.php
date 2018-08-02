@@ -343,6 +343,12 @@ function getRandomNumber($f, $t, $n)
                         <span class="title">Млинці</span>
                     </a>
                 </li>
+                <li>
+                    <a href="#" id="cat_link_40" onclick="renderInnerPage(this, 'cat', 40);">
+                        <img alt="" src="img/subnab_cat4.png">
+                        <span class="title">Чевупіца</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -533,6 +539,9 @@ function getRandomNumber($f, $t, $n)
                         </div>
                         <div onclick="renderInnerPage(this, 'cat', 38);" class="more__pop more__pop-8">
                             <a href="" class="more__pop-btn" onclick="return false;">млинці</a>
+                        </div>
+                        <div onclick="renderInnerPage(this, 'cat', 40);" class="more__pop more__pop-9">
+                            <a href="" class="more__pop-btn" onclick="return false;">чевупіца</a>
                         </div>
                     </div>
                     <div class="subcat">
