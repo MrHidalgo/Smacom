@@ -345,7 +345,7 @@ function getRandomNumber($f, $t, $n)
                 </li>
                 <li>
                     <a href="#" id="cat_link_40" onclick="renderInnerPage(this, 'cat', 40);">
-                        <img alt="" src="img/subnab_cat4.png">
+                        <img alt="" src="img/subnab_cat_chevpizza.png">
                         <span class="title">Чевупіца</span>
                     </a>
                 </li>
