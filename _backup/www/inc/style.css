@@ -3742,6 +3742,14 @@ Img back to main page:
 .block-2 h1,
 .block-2 h2,
 .block-2 h3,
+.block-2 h4 {
+	color: #444;
+	text-shadow: 0 0 20px rgba(255, 255, 255, 0.65);
+}
+
+.block-2 h1,
+.block-2 h2,
+.block-2 h3,
 .block-2 h4,
 .block-3 h1,
 .block-3 h2,

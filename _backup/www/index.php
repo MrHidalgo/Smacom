@@ -1094,7 +1094,7 @@ function getRandomNumber($f, $t, $n)
 <script>
     $(document).ready(function () {
         $("#owl-demo").owlCarousel({
-            autoPlay: false,
+            autoPlay: 15000,
             navigation: true, // Show next and prev buttons
             slideSpeed: 500,
             paginationSpeed: 500,
