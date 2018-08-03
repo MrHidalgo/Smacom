@@ -480,24 +480,46 @@ function getRandomNumber($f, $t, $n)
 
             <div id="owl-demo" class="owl-carousel owl-theme">
 
-                <a href="" onclick="renderInnerPage(this, 'cat',16); ">
+                <a href="#" onclick="renderInnerPage(this, 'cat', 39); ">
                     <div class="item block-0">
-                        <img src="img/new_img/banner_new_ru.png" alt=""/>
+                        <div>
+                            <h1>Бульмени</h1>
+                            <h4>охлажденное мясо</h4>
+                            <h4>маленькая круглая форма</h4>
+                            <h4>внутри сочный бульон</h4>
+                        </div>
+<!--                        <img src="img/slider/slider_chev.jpg" alt=""/>-->
                     </div>
                 </a>
-                <a href="" onclick="renderInnerPage(this, 'cat',1);">
+                <a href="#" onclick="renderInnerPage(this, 'cat', 40);">
                     <div class="item block-1">
-                        <img src="img/banner_1_desc.png" alt=""/>
+                        <div>
+                            <h1>Чевупицца</h1>
+                            <h3>новый формат пиццы!</h3>
+                        </div>
+<!--                        <img src="img/slider/slider_bull.jpg" alt=""/>-->
                     </div>
                 </a>
-                <a href="" onclick="renderInnerPage(this, 'cat',6);">
+                <a href="#" onclick="renderInnerPage(this, 'cat', 38);">
                     <div class="item block-2">
-                        <img src="img/banner_2_desc.png" alt=""/>
+                        <div>
+                            <h1>Блины</h1>
+                            <h3>тонкое ажурное тесто</h3>
+                            <h4>разные вкусы: клубника, абрикос, мясо, сыр!</h4>
+                        </div>
+<!--                        <img src="img/slider/slider_pancakes.jpg" alt=""/>-->
                     </div>
                 </a>
-                <a href="" onclick="renderInnerPage(this, 'cat',3);">
+                <a href="#" onclick="renderInnerPage(this, 'cat', 1);">
                     <div class="item block-3">
-                        <img src="img/banner_3_desc.png" alt=""/>
+                        <div>
+                            <h1>Ваш личный <br>шеф повар!</h1>
+                            <h4>Продукция ТМ Smacom - это натуральные <br>
+                                высококачественные продукты быстрого <br>
+                                приготовления, которые экономят Ваше время <br>
+                                и дарят наслаждение подлинным вкусом.</h4>
+                        </div>
+<!--                        <img src="img/banner_1_desc.png" alt=""/>-->
                     </div>
                 </a>
 
@@ -1072,11 +1094,10 @@ function getRandomNumber($f, $t, $n)
 <script>
     $(document).ready(function () {
         $("#owl-demo").owlCarousel({
-
-            autoPlay: 15000,
+            autoPlay: false,
             navigation: true, // Show next and prev buttons
-            slideSpeed: 300,
-            paginationSpeed: 400,
+            slideSpeed: 500,
+            paginationSpeed: 500,
             singleItem: true,
             loop: true
         });

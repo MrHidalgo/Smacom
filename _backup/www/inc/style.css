@@ -3676,37 +3676,95 @@ Img back to main page:
 }
 
 #owl-demo .block-0:before {
-	background: url("../img/new_img/slider_2.jpg") no-repeat center;
+	background: url("../img/slider/slider_bull.jpg") no-repeat center;
 	background-size: cover;
 }
 
 #owl-demo .block-1:before {
-	background: url("../img/banner1.jpg") no-repeat center;
+	background: url("../img/slider/slider_chev.jpg") no-repeat center;
 	background-size: cover;
 }
 
 #owl-demo .block-2:before {
-	background: url("../img/banner2.jpg") no-repeat center;
+	background: url("../img/slider/slider_pancakes.jpg") no-repeat center;
 	background-size: cover;
 }
 
 #owl-demo .block-3:before {
-	background: url("../img/banner3.jpg") no-repeat center;
+	background: url("../img/banner1.jpg") no-repeat center;
 	background-size: cover;
 }
 
-.block-0 img {
+.block-0 > div,
+.block-1 > div,
+.block-2 > div,
+.block-3 > div {
 	position: absolute;
-	top: 5%;
-	right: 0;
+	top: 15%;
+	right: 30px;
 }
 
-.block-1 img,
-.block-2 img,
-.block-3 img {
-	position: absolute;
-	top: 20%;
-	left: 10%;
+.block-0 h4,
+.block-1 h4,
+.block-2 h4,
+.block-3 h4 {
+	line-height: 1.3;
+}
+
+.block-2 > div,
+.block-3 > div {
+	right: auto;
+	left: 30px;
+}
+
+.block-0 h1,
+.block-0 h2,
+.block-0 h3,
+.block-0 h4,
+.block-1 h1,
+.block-1 h2,
+.block-1 h3,
+.block-1 h4,
+.block-2 h1,
+.block-2 h2,
+.block-2 h3,
+.block-2 h4,
+.block-3 h1,
+.block-3 h2,
+.block-3 h3,
+.block-3 h4
+{
+	text-align: right;
+	color: #fff;
+	text-shadow: 0 0 20px rgba(0,0,0,0.35);
+}
+
+.block-2 h1,
+.block-2 h2,
+.block-2 h3,
+.block-2 h4,
+.block-3 h1,
+.block-3 h2,
+.block-3 h3,
+.block-3 h4
+{
+	text-align: left;
+}
+
+.block-0 h2,
+.block-0 h3,
+.block-0 h4,
+.block-1 h2,
+.block-1 h3,
+.block-1 h4,
+.block-2 h2,
+.block-2 h3,
+.block-2 h4,
+.block-3 h2,
+.block-3 h3,
+.block-3 h4
+{
+	margin-bottom: 0;
 }
 
 .owl-theme .owl-controls {
