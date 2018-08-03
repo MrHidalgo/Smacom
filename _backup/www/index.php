@@ -1021,18 +1021,17 @@ function getRandomNumber($f, $t, $n)
             <div class="copyright">© 2003-2015 SmaCom</div>
             <div class="soc-icon">
                 <ul>
+<!--                    <li>-->
+<!--                        <a href="https://vk.com/id319556365" class="social-icon-1">-->
+<!--                        </a>-->
+<!--                    </li>-->
                     <li>
-                        <a href="https://vk.com/id319556365" class="social-icon-1">
-                        </a>
+                        <a href="https://www.facebook.com/SmaComUa/" class="social-icon-2"></a>
                     </li>
-                    <li>
-                        <a href="https://www.facebook.com/profile.php?id=100010187617142" class="social-icon-2">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://ok.ru/profile/571205720858" class="social-icon-3">
-                        </a>
-                    </li>
+<!--                    <li>-->
+<!--                        <a href="http://ok.ru/profile/571205720858" class="social-icon-3">-->
+<!--                        </a>-->
+<!--                    </li>-->
                 </ul>
             </div>
             <div class="footerLogo"><img src="img/logo_footer.png" alt=""></div>
