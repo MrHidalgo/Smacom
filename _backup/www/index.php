@@ -389,12 +389,12 @@ function getRandomNumber($f, $t, $n)
                         <span class="title">Блинчики</span>
                     </a>
                 </li>
-                <li>
-                    <a href="#" id="cat_link_40" onclick="renderInnerPage(this, 'cat', 40);">
-                        <img alt="" src="img/subnab_cat_chevpizza.png">
-                        <span class="title">Чевупицца</span>
-                    </a>
-                </li>
+<!--                <li>-->
+<!--                    <a href="#" id="cat_link_40" onclick="renderInnerPage(this, 'cat', 40);">-->
+<!--                        <img alt="" src="img/subnab_cat_chevpizza.png">-->
+<!--                        <span class="title">Чевупицца</span>-->
+<!--                    </a>-->
+<!--                </li>-->
             </ul>
         </div>
     </div>
@@ -615,9 +615,9 @@ function getRandomNumber($f, $t, $n)
                         <div onclick="renderInnerPage(this, 'cat', 38);" class="more__pop more__pop-8">
                             <a href="" class="more__pop-btn" onclick="return false;">блинчики</a>
                         </div>
-                        <div onclick="renderInnerPage(this, 'cat', 40);" class="more__pop more__pop-9">
-                            <a href="" class="more__pop-btn" onclick="return false;">чевупицца</a>
-                        </div>
+<!--                        <div onclick="renderInnerPage(this, 'cat', 40);" class="more__pop more__pop-9">-->
+<!--                            <a href="" class="more__pop-btn" onclick="return false;">чевупицца</a>-->
+<!--                        </div>-->
                     </div>
                     <div class="subcat">
                         <img src="../../img/product_thumb_dough.png" alt="">
