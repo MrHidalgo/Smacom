@@ -153,9 +153,9 @@ function getRandomNumber($f, $t, $n)
                 <li><a href="#" id="cat_link_10" onclick="renderInnerPage(this, 'cat',10);"><img alt=""
                                                                                                  src="img/subnab_brand1.png"><span
                                 class="title">SmaCom</span></a></li>
-                <li><a href="#" id="cat_link_9" onclick="renderInnerPage(this, 'cat',9);"><img alt=""
-                                                                                               src="img/subnab_brand4.png"><span
-                                class="title">Doy-pack</span></a></li>
+<!--                <li><a href="#" id="cat_link_9" onclick="renderInnerPage(this, 'cat',9);"><img alt=""-->
+<!--                                                                                               src="img/subnab_brand4.png"><span-->
+<!--                                class="title">Doy-pack</span></a></li>-->
                 <li><a href="#" id="cat_link_8" onclick="renderInnerPage(this, 'cat',8);"><img alt=""
                                                                                                src="img/subnab_brand3.png"><span
                                 class="title">Brand</span></a></li>
@@ -266,9 +266,9 @@ function getRandomNumber($f, $t, $n)
                     </a>
                 </li>
                 <li>
-                    <a href="#" id="cat_link_27" onclick="renderInnerPage(this, 'cat', 27);">
-                        <img alt="" src="img/subnab_cat4.png">
-                        <span class="title">Pancakes</span>
+                    <a href="#" id="cat_link_39" onclick="renderInnerPage(this, 'cat', 39);">
+                        <img alt="" src="img/subnab_cat20.png">
+                        <span class="title">Bulmens</span>
                     </a>
                 </li>
                 <li>
@@ -340,6 +340,18 @@ function getRandomNumber($f, $t, $n)
                         <span class="title">Patties</span>
                     </a>
                 </li>
+                <li>
+                    <a href="#" id="cat_link_38" onclick="renderInnerPage(this, 'cat', 38);">
+                        <img alt="" src="img/subnab_cat4.png">
+                        <span class="title">Pancakes</span>
+                    </a>
+                </li>
+<!--                <li>-->
+<!--                    <a href="#" id="cat_link_40" onclick="renderInnerPage(this, 'cat', 40);">-->
+<!--                        <img alt="" src="img/subnab_cat_chevpizza.png">-->
+<!--                        <span class="title">Chevupizza</span>-->
+<!--                    </a>-->
+<!--                </li>-->
             </ul>
         </div>
     </div>
@@ -421,10 +433,10 @@ function getRandomNumber($f, $t, $n)
                 <a href="#" onclick="renderInnerPage(this, 'cat', 39); ">
                     <div class="item block-0">
                         <div>
-                            <h1>Бульмени</h1>
-                            <h4>охлажденное мясо</h4>
-                            <h4>маленькая круглая форма</h4>
-                            <h4>внутри сочный бульон</h4>
+                            <h1>Bulmens</h1>
+                            <h4>chilled meat</h4>
+                            <h4>small round form</h4>
+                            <h4>inside juicy bouth</h4>
                         </div>
                         <!--                        <img src="img/slider/slider_chev.jpg" alt=""/>-->
                     </div>
@@ -432,8 +444,8 @@ function getRandomNumber($f, $t, $n)
                 <a href="#" onclick="renderInnerPage(this, 'cat', 40);">
                     <div class="item block-1">
                         <div>
-                            <h1>Чевупицца</h1>
-                            <h3>новый формат пиццы!</h3>
+                            <h1>Chevupizza</h1>
+                            <h3>is a new pizza format!</h3>
                         </div>
                         <!--                        <img src="img/slider/slider_bull.jpg" alt=""/>-->
                     </div>
@@ -441,9 +453,9 @@ function getRandomNumber($f, $t, $n)
                 <a href="#" onclick="renderInnerPage(this, 'cat', 38);">
                     <div class="item block-2">
                         <div>
-                            <h1>Блины</h1>
-                            <h3>тонкое ажурное тесто</h3>
-                            <h4>разные вкусы: клубника, абрикос, мясо, сыр!</h4>
+                            <h1>Pancakes</h1>
+                            <h3>thin crust</h3>
+                            <h4>different taste: strawberry, apricot, meat, cheese!</h4>
                         </div>
                         <!--                        <img src="img/slider/slider_pancakes.jpg" alt=""/>-->
                     </div>
@@ -451,11 +463,9 @@ function getRandomNumber($f, $t, $n)
                 <a href="#" onclick="renderInnerPage(this, 'cat', 1);">
                     <div class="item block-3">
                         <div>
-                            <h1>Ваш личный <br>шеф повар!</h1>
-                            <h4>Продукция ТМ Smacom - это натуральные <br>
-                                высококачественные продукты быстрого <br>
-                                приготовления, которые экономят Ваше время <br>
-                                и дарят наслаждение подлинным вкусом.</h4>
+                            <h1>Fired meatbolls</h1>
+                            <h4>Exquisite meat delicacies <br>
+                                rapid preparation</h4>
                         </div>
                         <!--                        <img src="img/banner_1_desc.png" alt=""/>-->
                     </div>
@@ -513,9 +523,9 @@ function getRandomNumber($f, $t, $n)
                         </div>
                     </div>
                     <div class="subcat">
-                        <img src="img/product_thumb_3.png" alt="">
-                        <div onclick="renderInnerPage(this, 'cat', 27);" class="hoverBox">
-                            <a href="" class="more" onClick="return false;">pancakes</a>
+                        <img src="img/product_thumb_20.png" alt="">
+                        <div onclick="renderInnerPage(this, 'cat', 39);" class="hoverBox">
+                            <a href="" class="more" onClick="return false;">bulmens</a>
                         </div>
                     </div>
                     <div class="subcat subcat-more">
@@ -551,6 +561,12 @@ function getRandomNumber($f, $t, $n)
                         <div onclick="renderInnerPage(this, 'cat', 36);" class="more__pop more__pop-7">
                             <a href="" class="more__pop-btn" onclick="return false;">patties</a>
                         </div>
+                        <div onclick="renderInnerPage(this, 'cat', 38);" class="more__pop more__pop-8">
+                            <a href="" class="more__pop-btn" onclick="return false;">pancakes</a>
+                        </div>
+<!--                        <div onclick="renderInnerPage(this, 'cat', 40);" class="more__pop more__pop-9">-->
+<!--                            <a href="" class="more__pop-btn" onclick="return false;">chevupizza</a>-->
+<!--                        </div>-->
                     </div>
                     <div class="subcat">
                         <img src="img/product_thumb_dough.png" alt="">
